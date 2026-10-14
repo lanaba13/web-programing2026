@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mousemove Event</title>
+    <!-- 1. Reset CSS : 브라우저 기본 스타일 초기화 -->
+    <link rel="stylesheet" href="./style/reset.css" />
+    <!-- 2. Main CSS : 내가 작성한 디자인 -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- 3. jQuery 라이브러리 (CDN) -->
+    <script
+      src="https://code.jquery.com/jquery-4.0.0.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 4. 내가 작성한 스크립트 (defer : HTML을 다 읽은 뒤 실행) -->
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- 마우스 좌표에 따라 움직이는 배경과 고양이 -->
+    <img class="bg-img" src="./assets/bg.jpg" alt="풀숲 배경" />
+    <img class="cat-img" src="./assets/cat.png" alt="고양이" />
+
+    <!-- 마우스 X, Y 좌표값으로 박스 크기 조정 (주석을 풀면 동작) -->
+    <!-- <div id="status"></div>
+    <div class="box"></div> -->
+  </body>
+</html>

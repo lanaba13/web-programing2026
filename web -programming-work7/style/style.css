@@ -1,0 +1,30 @@
+/* 배경 이미지 : 800x600 틀 안에 꽉 채우고, 보이는 위치(object-position)를 마우스로 바꿈 */
+.bg-img {
+  display: block;
+  width: 800px;
+  height: 600px;
+  object-fit: cover;
+  object-position: 0% 50%;
+}
+
+/* 고양이 이미지 : absolute로 띄워서 left, top 값으로 위치를 움직임 */
+.cat-img {
+  display: block;
+  width: 200px;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  pointer-events: none; /* 고양이가 마우스 이벤트를 가로막지 않게 */
+}
+
+/* 좌표 확인용 박스 (HTML 주석을 풀면 사용) */
+#status {
+  margin: 16px 0;
+  font-size: 18px;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 8px;
+}
